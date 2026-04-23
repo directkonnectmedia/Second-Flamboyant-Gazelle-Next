@@ -212,12 +212,12 @@ const Navigation = (props) => {
   // Sticky header behavior
   window.addEventListener("scroll", () => {
     if (window.scrollY > 50) {
-      navWrapper.style.backgroundColor = "rgba(46, 38, 32, 0.95)"
-      navWrapper.style.backdropFilter = "blur(10px)"
+      navWrapper.style.backgroundColor = "rgba(245, 239, 230, 0.96)"
+      navWrapper.style.boxShadow = "0 1px 0 rgba(42, 33, 24, 0.06)"
       navWrapper.style.padding = "var(--spacing-md) 3rem"
     } else {
-      navWrapper.style.backgroundColor = "transparent"
-      navWrapper.style.backdropFilter = "none"
+      navWrapper.style.backgroundColor = "rgba(245, 239, 230, 0.92)"
+      navWrapper.style.boxShadow = "none"
       navWrapper.style.padding = "var(--spacing-xl) 3rem"
     }
   })

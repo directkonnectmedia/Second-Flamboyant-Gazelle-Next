@@ -28,101 +28,41 @@ const Home = (props) => {
           <div className="hero-carousel__slides">
             <div className="hero-carousel__slide active">
               <img
-                src="https://images.pexels.com/photos/15504475/pexels-photo-15504475.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Southwestern Arizona home with beautiful stucco finish"
+                src="https://images.pexels.com/photos/5223143/pexels-photo-5223143.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="Spanish style Arizona stucco home with arched windows at golden hour"
                 className="hero-carousel__image"
               />
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="https://images.pexels.com/photos/33301798/pexels-photo-33301798.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Mediterranean style stucco house at golden hour"
+                src="https://images.pexels.com/photos/15504475/pexels-photo-15504475.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="Tucson Arizona suburban stucco home with southwestern architecture"
                 className="hero-carousel__image"
               />
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="https://images.pexels.com/photos/14625165/pexels-photo-14625165.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Traditional colonial stucco facade with warm sunlight"
+                src="https://images.pexels.com/photos/15504477/pexels-photo-15504477.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="Row of modern Arizona stucco homes in Tucson neighborhood"
                 className="hero-carousel__image"
               />
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="https://images.pexels.com/photos/21235708/pexels-photo-21235708.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Modern Arizona stucco home with desert landscaping"
+                src="https://images.pexels.com/photos/34960819/pexels-photo-34960819.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="Mediterranean style stucco home with terracotta tile roof"
                 className="hero-carousel__image"
               />
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="https://images.pexels.com/photos/3771265/pexels-photo-3771265.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                alt="Clean white stucco texture on a Phoenix residence"
+                src="https://images.pexels.com/photos/33301798/pexels-photo-33301798.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="Mediterranean white stucco house at sunset with arched windows"
                 className="hero-carousel__image"
               />
             </div>
           </div>
           <div className="hero-carousel__overlay"></div>
-          <header className="hero-carousel__top-bar">
-            <div className="hero-carousel__brand">
-              <span className="hero-carousel__wordmark">CarloStucco</span>
-            </div>
-            <div className="hero-carousel__actions">
-              <a href="tel:+16026281573">
-                <div className="hero-carousel__phone">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"></path>
-                  </svg>
-                  <span>(602) 628-1573</span>
-                </div>
-              </a>
-              <div className="hero-carousel__menu-wrapper">
-                <button id="menuTrigger" className="hero-carousel__menu-btn">
-                  <span>Menu</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="m6 9l6 6l6-6"></path>
-                  </svg>
-                </button>
-                <div id="menuDropdown" className="hero-carousel__dropdown">
-                  <a href="#why-us">
-                    <div className="hero-carousel__dropdown-link">
-                      <span>About Us</span>
-                    </div>
-                  </a>
-                  <a href="#gallery">
-                    <div className="hero-carousel__dropdown-link">
-                      <span>Gallery</span>
-                    </div>
-                  </a>
-                  <a href="#contact">
-                    <div className="hero-carousel__dropdown-link">
-                      <span>Contact Us</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </header>
           <div className="hero-carousel__content">
             <h1 className="hero-title">
               <span>
@@ -165,6 +105,7 @@ const Home = (props) => {
         </section>
         <section id="why-us" className="why-us">
           <div className="why-us__container">
+            <span className="section-eyebrow">The Craft</span>
             <h2 className="section-title">Why Choose Us</h2>
             <div className="why-us__divider"></div>
             <p className="why-us__intro section-content">
@@ -178,6 +119,13 @@ const Home = (props) => {
             </p>
             <div className="why-us__grid">
               <div className="why-us__card">
+                <div className="why-us__image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80"
+                    alt="Craftsman applying stucco by hand"
+                    className="why-us__image"
+                  />
+                </div>
                 <div className="why-us__icon-box">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -195,14 +143,18 @@ const Home = (props) => {
                 </div>
                 <h3 className="why-us__card-title">Master Craftsmanship</h3>
                 <p className="why-us__card-text">
-                  With decades of hands-on experience, Carlos personally
-                  oversees every job from start to finish. This isn&apos;t an
-                  office operation — it&apos;s a true craftsman&apos;s trade,
-                  practiced the old-fashioned way, with the kind of pride that
-                  comes from signing your name to your work.
+                  Decades of hands-on experience. Carlos runs every job
+                  himself — no subcontractors, no shortcuts.
                 </p>
               </div>
               <div className="why-us__card">
+                <div className="why-us__image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=800&q=80"
+                    alt="Close-up of premium stucco texture"
+                    className="why-us__image"
+                  />
+                </div>
                 <div className="why-us__icon-box">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -229,13 +181,18 @@ const Home = (props) => {
                 </div>
                 <h3 className="why-us__card-title">Premium Materials</h3>
                 <p className="why-us__card-text">
-                  We use only top-grade stucco products specifically chosen to
-                  withstand Arizona&apos;s intense sun, dry heat, and monsoon
-                  storms. The materials beneath the surface matter just as much
-                  as the finish you can see — and we never compromise on either.
+                  Top-grade stucco built to handle Arizona sun, heat, and
+                  monsoon storms — inside and out.
                 </p>
               </div>
               <div className="why-us__card">
+                <div className="why-us__image-wrap">
+                  <img
+                    src="https://images.pexels.com/photos/36198193/pexels-photo-36198193.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    alt="Mediterranean Arizona stucco home with red tile roof"
+                    className="why-us__image"
+                  />
+                </div>
                 <div className="why-us__icon-box">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -256,14 +213,18 @@ const Home = (props) => {
                   Beautiful, Lasting Finishes
                 </h3>
                 <p className="why-us__card-text">
-                  From smooth Santa Fe finishes to classic Spanish lace, every
-                  texture is hand-crafted to match the character of your home.
-                  Our finishes are built to hold their beauty for decades — not
-                  just a few seasons — and to elevate your home&apos;s curb
-                  appeal from the street.
+                  Hand-crafted textures from smooth Santa Fe to classic
+                  Spanish lace — built to hold their beauty for decades.
                 </p>
               </div>
               <div className="why-us__card">
+                <div className="why-us__image-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=80"
+                    alt="Friendly handshake representing honest value"
+                    className="why-us__image"
+                  />
+                </div>
                 <div className="why-us__icon-box">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -291,10 +252,8 @@ const Home = (props) => {
                 </div>
                 <h3 className="why-us__card-title">Best Value in the Valley</h3>
                 <p className="why-us__card-text">
-                  Honest pricing. Clear timelines. No hidden add-ons. We believe
-                  Arizona homeowners deserve the best bang for their buck — and
-                  that means premium work at a fair, straightforward price. No
-                  pressure, no surprises.
+                  Honest pricing. Clear timelines. No hidden fees — just
+                  premium work at a fair price.
                 </p>
               </div>
             </div>
@@ -302,92 +261,75 @@ const Home = (props) => {
         </section>
         <section id="gallery" className="gallery">
           <div className="gallery__container">
+            <span className="section-eyebrow">Recent Projects</span>
             <h2 className="section-title">Our Work</h2>
             <div className="why-us__divider"></div>
             <p className="gallery__subtitle">
               A selection of recent projects from across the Phoenix Valley.
             </p>
-            <div id="galleryCarousel" className="gallery__carousel">
-              <div className="gallery__slide active">
-                <div className="gallery__card">
-                  <img
-                    src="https://images.pexels.com/photos/15504475/pexels-photo-15504475.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    alt="Custom Spanish Lace Finish Scottsdale"
-                    className="gallery__image"
-                  />
-                  <div className="gallery__caption">
-                    <span className="gallery__project">
-                      Custom Spanish Lace Finish
-                    </span>
-                    <span className="gallery__location">Scottsdale, AZ</span>
-                  </div>
+            <div className="gallery__grid">
+              <div className="gallery__card">
+                <img
+                  src="https://images.pexels.com/photos/19168388/pexels-photo-19168388.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  alt="Custom desert stucco villa with cacti and palms"
+                  className="gallery__image"
+                />
+                <div className="gallery__caption">
+                  <span className="gallery__project">Custom Desert Villa</span>
+                  <span className="gallery__location">Scottsdale, AZ</span>
                 </div>
               </div>
-              <div className="gallery__slide">
-                <div className="gallery__card">
-                  <img
-                    src="https://images.pexels.com/photos/33301798/pexels-photo-33301798.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    alt="Full Re-Stucco Arcadia Phoenix"
-                    className="gallery__image"
-                  />
-                  <div className="gallery__caption">
-                    <span className="gallery__project">
-                      Full Re-Stucco &amp; Color Refresh
-                    </span>
-                    <span className="gallery__location">Arcadia, Phoenix</span>
-                  </div>
+              <div className="gallery__card">
+                <img
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+                  alt="Modern desert contemporary stucco home"
+                  className="gallery__image"
+                />
+                <div className="gallery__caption">
+                  <span className="gallery__project">
+                    Modern Desert Contemporary
+                  </span>
+                  <span className="gallery__location">Paradise Valley, AZ</span>
                 </div>
               </div>
-              <div className="gallery__slide">
-                <div className="gallery__card">
-                  <img
-                    src="https://images.pexels.com/photos/14625165/pexels-photo-14625165.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    alt="Smooth Santa Fe Finish Paradise Valley"
-                    className="gallery__image"
-                  />
-                  <div className="gallery__caption">
-                    <span className="gallery__project">
-                      Smooth Santa Fe Finish
-                    </span>
-                    <span className="gallery__location">
-                      Paradise Valley, AZ
-                    </span>
-                  </div>
+              <div className="gallery__card">
+                <img
+                  src="https://images.pexels.com/photos/5223143/pexels-photo-5223143.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  alt="Spanish revival stucco home with terracotta tile roof"
+                  className="gallery__image"
+                />
+                <div className="gallery__caption">
+                  <span className="gallery__project">
+                    Spanish Revival Restoration
+                  </span>
+                  <span className="gallery__location">Arcadia, Phoenix</span>
                 </div>
               </div>
-              <div className="gallery__slide">
-                <div className="gallery__card">
-                  <img
-                    src="https://images.pexels.com/photos/21235708/pexels-photo-21235708.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    alt="New Construction Chandler"
-                    className="gallery__image"
-                  />
-                  <div className="gallery__caption">
-                    <span className="gallery__project">
-                      New Construction Monolithic Finish
-                    </span>
-                    <span className="gallery__location">Chandler, AZ</span>
-                  </div>
+              <div className="gallery__card">
+                <img
+                  src="https://images.pexels.com/photos/36198193/pexels-photo-36198193.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  alt="Luxury Mediterranean stucco home with red tile roof"
+                  className="gallery__image"
+                />
+                <div className="gallery__caption">
+                  <span className="gallery__project">
+                    Luxury Mediterranean Refresh
+                  </span>
+                  <span className="gallery__location">Chandler, AZ</span>
                 </div>
               </div>
-            </div>
-            <div className="gallery__indicators">
-              <span className="gallery__dot active"></span>
-              <span className="gallery__dot"></span>
-              <span className="gallery__dot"></span>
-              <span className="gallery__dot"></span>
             </div>
           </div>
         </section>
         <section id="contact" className="contact">
           <div className="contact__container">
-            <h2 className="section-title">Contact Us Today</h2>
+            <span className="section-eyebrow">Get In Touch</span>
+            <h2 className="section-title">Let&apos;s Talk About Your Home</h2>
             <p className="contact__intro">
-              Tell us a little about your project — Carlos will personally
-              follow up to put together a quote tailored to your home. No
-              pressure, no hassle, and no commitment. We&apos;re happy to answer
-              questions, talk through options, or just give you an honest read
-              on what your home might need.
+              No pressure, no hard sell — just a friendly conversation. Share as
+              much or as little as you&apos;d like, and Carlos will reach out
+              personally when it works for you. Every question is optional, and
+              you can skip any step along the way.
             </p>
             <div className="wizard-card">
               <div className="wizard-card__progress">
@@ -398,62 +340,73 @@ const Home = (props) => {
               </div>
               <div id="wizardSteps" className="wizard-card__steps">
                 <div data-step="1" className="wizard-step active">
-                  <span className="wizard-step__label">Step 1 of 4</span>
+                  <span className="wizard-step__label">A quick hello</span>
                   <h3 className="wizard-step__question">
-                    When are you looking to get started?
+                    What&apos;s your timing looking like?
                   </h3>
+                  <p className="wizard-step__helper">
+                    There&apos;s no wrong answer — we&apos;re happy to chat
+                    whether you&apos;re ready to go or just curious.
+                  </p>
                   <div className="wizard-step__pills">
                     <button data-value="ASAP" className="wizard-pill">
-                      ASAP
+                      Ready to start
                     </button>
                     <button data-value="Within 1 month" className="wizard-pill">
-                      Within 1 month
+                      Sometime soon
                     </button>
                     <button data-value="1-3 months" className="wizard-pill">
-                      1–3 months
+                      Planning ahead
                     </button>
                     <button data-value="Exploring" className="wizard-pill">
-                      No rush, just exploring
+                      Just exploring
                     </button>
                   </div>
                   <div className="wizard-step__nav">
-                    <button
-                      disabled="true"
-                      className="wizard-next btn btn-primary btn-lg"
-                    >
-                      Next
-                    </button>
+                    <div className="wizard-step__nav-right">
+                      <button className="wizard-skip btn btn-link">
+                        Skip for now
+                      </button>
+                      <button className="wizard-next btn btn-primary btn-lg">
+                        Continue
+                      </button>
+                    </div>
                   </div>
                 </div>
                 <div data-step="2" className="wizard-step">
-                  <span className="wizard-step__label">Step 2 of 4</span>
+                  <span className="wizard-step__label">A little about your home</span>
                   <h3 className="wizard-step__question">
-                    How large is your home?
+                    Tell us a bit about your place
                   </h3>
+                  <p className="wizard-step__helper">
+                    Don&apos;t worry about being exact — a rough idea is plenty.
+                    Carlos will confirm everything when he visits.
+                  </p>
                   <div className="wizard-step__inputs">
                     <div className="form-group">
-                      <label htmlFor="sqft">Square footage</label>
+                      <label htmlFor="sqft">Approximate square footage</label>
                       <input
                         type="number"
                         id="sqft"
-                        placeholder="e.g. 2,400"
+                        placeholder="e.g. 2,400 (or leave blank)"
                         className="form-input"
                       />
                     </div>
                     <div className="form-group">
                       <label htmlFor="size-details">
-                        Any details about the size? (optional)
+                        Anything else about the home? (optional)
                       </label>
                       <textarea
                         id="size-details"
                         rows="3"
+                        placeholder="Single story, stucco on half the home, recent repairs..."
                         className="form-input"
                       ></textarea>
                     </div>
                     <div className="form-checkbox">
                       <input type="checkbox" id="notSure" />
                       <label htmlFor="notSure">
-                        Not sure — I&apos;d rather have Carlos help estimate
+                        I&apos;d rather have Carlos take a look and figure it out
                       </label>
                     </div>
                   </div>
@@ -461,27 +414,29 @@ const Home = (props) => {
                     <button className="wizard-back btn btn-outline">
                       Back
                     </button>
-                    <button
-                      disabled="true"
-                      className="wizard-next btn btn-primary"
-                    >
-                      Next
-                    </button>
+                    <div className="wizard-step__nav-right">
+                      <button className="wizard-skip btn btn-link">
+                        Skip for now
+                      </button>
+                      <button className="wizard-next btn btn-primary">
+                        Continue
+                      </button>
+                    </div>
                   </div>
                 </div>
                 <div data-step="3" className="wizard-step">
-                  <span className="wizard-step__label">Step 3 of 4</span>
+                  <span className="wizard-step__label">Anything on your mind?</span>
                   <h3 className="wizard-step__question">
-                    Anything else we should know?
+                    Is there anything you&apos;d like Carlos to know?
                   </h3>
                   <p className="wizard-step__helper">
-                    Completely optional — feel free to skip this step if
-                    you&apos;d rather just chat in person.
+                    Totally optional — feel free to skip this and save it for
+                    when you chat in person.
                   </p>
                   <textarea
                     id="notes"
                     rows="5"
-                    placeholder="Color preferences, problem areas, damage from monsoon storms..."
+                    placeholder="Color ideas, a problem spot, monsoon damage, or anything you're curious about..."
                     className="form-input"
                   ></textarea>
                   <div className="wizard-step__nav">
@@ -489,46 +444,39 @@ const Home = (props) => {
                       Back
                     </button>
                     <div className="wizard-step__nav-right">
-                      <button className="wizard-skip btn btn-link">Skip</button>
+                      <button className="wizard-skip btn btn-link">
+                        Skip for now
+                      </button>
                       <button className="wizard-next btn btn-primary">
-                        Next
+                        Continue
                       </button>
                     </div>
                   </div>
                 </div>
                 <div data-step="4" className="wizard-step">
-                  <span className="wizard-step__label">Step 4 of 4</span>
+                  <span className="wizard-step__label">Almost done</span>
                   <h3 className="wizard-step__question">
-                    How can we reach you?
+                    How should Carlos reach out?
                   </h3>
                   <p className="wizard-step__helper">
-                    We&apos;ll only use your info to follow up about your
-                    project — we never share it, and we never spam.
+                    Just your first name and one way to reach you — that&apos;s
+                    it. Your info stays private, and you&apos;ll never get spam
+                    or marketing emails from us.
                   </p>
                   <div className="wizard-step__inputs">
                     <div className="form-group">
                       <label htmlFor="userName">
-                        <span>
-                          {' '}
-                          Name
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
-                        </span>
-                        <span className="required-mark">*</span>
+                        <span>Your name</span>
                       </label>
                       <input
                         type="text"
                         id="userName"
-                        placeholder="Your name"
-                        required="true"
+                        placeholder="First name is fine"
                         className="form-input"
                       />
                     </div>
                     <div className="form-group">
-                      <label htmlFor="userPhone">Phone number (optional)</label>
+                      <label htmlFor="userPhone">Phone (optional)</label>
                       <input
                         type="tel"
                         id="userPhone"
@@ -538,7 +486,7 @@ const Home = (props) => {
                     </div>
                     <div className="form-group">
                       <label htmlFor="userEmail">
-                        Email address (optional)
+                        Email (optional)
                       </label>
                       <input
                         type="email"
@@ -557,7 +505,7 @@ const Home = (props) => {
                       id="submitWizard"
                       className="btn btn-primary btn-lg"
                     >
-                      Send My Request
+                      Say hi to Carlos
                     </button>
                   </div>
                 </div>
@@ -567,6 +515,7 @@ const Home = (props) => {
         </section>
         <section id="testimonials" className="testimonials">
           <div className="testimonials__container">
+            <span className="section-eyebrow">Neighbors Say</span>
             <h2 className="section-title">Local Voices</h2>
             <div className="why-us__divider"></div>
             <div className="testimonials__rail">
@@ -605,12 +554,13 @@ const Home = (props) => {
         </section>
         <section id="process" className="process">
           <div className="process__container">
+            <span className="section-eyebrow">How It Works</span>
             <h2 className="section-title">Our Process</h2>
             <div className="why-us__divider"></div>
             <div className="process__steps">
               <div className="process__step">
                 <div className="process__number">
-                  <span>1</span>
+                  <span>01</span>
                 </div>
                 <h3 className="process__title">Personal Estimate</h3>
                 <p className="process__text">
@@ -621,7 +571,7 @@ const Home = (props) => {
               </div>
               <div className="process__step">
                 <div className="process__number">
-                  <span>2</span>
+                  <span>02</span>
                 </div>
                 <h3 className="process__title">Hands-On Craft</h3>
                 <p className="process__text">
@@ -632,7 +582,7 @@ const Home = (props) => {
               </div>
               <div className="process__step">
                 <div className="process__number">
-                  <span>3</span>
+                  <span>03</span>
                 </div>
                 <h3 className="process__title">Final Walkthrough</h3>
                 <p className="process__text">
@@ -647,6 +597,7 @@ const Home = (props) => {
         <section id="cta-area" className="cta-area">
           <div className="cta-area__container">
             <div className="cta-area__content">
+              <span className="section-eyebrow">Ready When You Are</span>
               <h2 className="section-title">Ready to protect your home?</h2>
               <p className="section-content">
                 We proudly serve Phoenix, Scottsdale, Mesa, Chandler, Tempe,
@@ -679,15 +630,15 @@ const Home = (props) => {
               </svg>
             </div>
             <h2 className="success-modal__title">
-              Thank you for contacting us!
+              Thanks for reaching out!
             </h2>
             <p className="success-modal__text">
-              A professional will be reaching out to you shortly. In the
-              meantime, feel free to explore more of our recent work — and
-              thanks for considering CarloStucco for your home.
+              Carlos got your message and will be in touch personally — no
+              call centers, no pushy follow-ups. In the meantime, feel free
+              to browse more of our recent work.
             </p>
             <button id="closeModal" className="btn btn-primary btn-lg">
-              Close
+              Sounds good
             </button>
           </div>
         </dialog>
@@ -725,45 +676,6 @@ transform: translateY(0);}}
     showHeroSlide(currentHeroSlide)
   }, 6000)
 
-  // Menu Dropdown Logic
-  const menuTrigger = document.getElementById("menuTrigger")
-  const menuDropdown = document.getElementById("menuDropdown")
-
-  menuTrigger.addEventListener("click", (e) => {
-    e.stopPropagation()
-    menuDropdown.classList.toggle("active")
-  })
-
-  document.addEventListener("click", () => {
-    menuDropdown.classList.remove("active")
-  })
-
-  // Gallery Carousel Logic
-  const gallerySlides = document.querySelectorAll(".gallery__slide")
-  const galleryDots = document.querySelectorAll(".gallery__dot")
-  let currentGallerySlide = 0
-  let galleryInterval
-
-  function showGallerySlide(index) {
-    gallerySlides.forEach((s) => s.classList.remove("active"))
-    galleryDots.forEach((d) => d.classList.remove("active"))
-    gallerySlides[index].classList.add("active")
-    galleryDots[index].classList.add("active")
-  }
-
-  function startGalleryAuto() {
-    galleryInterval = setInterval(() => {
-      currentGallerySlide = (currentGallerySlide + 1) % gallerySlides.length
-      showGallerySlide(currentGallerySlide)
-    }, 6000)
-  }
-
-  startGalleryAuto()
-
-  const galleryCarousel = document.getElementById("galleryCarousel")
-  galleryCarousel.addEventListener("mouseenter", () => clearInterval(galleryInterval))
-  galleryCarousel.addEventListener("mouseleave", startGalleryAuto)
-
   // Wizard Wizard Logic
   const wizardSteps = document.querySelectorAll(".wizard-step")
   const wizardDots = document.querySelectorAll(".wizard-card__dot")
@@ -780,29 +692,21 @@ transform: translateY(0);}}
     })
   }
 
-  // Step 1: Pill selection
+  // Step 1: Pill selection (no gating — users can always continue)
   const pills = document.querySelectorAll(".wizard-pill")
   pills.forEach((pill) => {
     pill.addEventListener("click", () => {
       pills.forEach((p) => p.classList.remove("selected"))
       pill.classList.add("selected")
-      pill.closest(".wizard-step").querySelector(".wizard-next").disabled = false
     })
   })
 
-  // Step 2: Validation
+  // Step 2: "Not sure" toggle disables the size inputs for convenience
   const sqftInput = document.getElementById("sqft")
   const notSureCheck = document.getElementById("notSure")
-  const step2Next = document.querySelector('.wizard-step[data-step="2"] .wizard-next')
-
-  function validateStep2() {
-    step2Next.disabled = !(sqftInput.value || notSureCheck.checked)
-  }
-  sqftInput.addEventListener("input", validateStep2)
   notSureCheck.addEventListener("change", () => {
     sqftInput.disabled = notSureCheck.checked
     document.getElementById("size-details").disabled = notSureCheck.checked
-    validateStep2()
   })
 
   // Navigation
@@ -840,11 +744,10 @@ transform: translateY(0);}}
   const modal = document.getElementById("thankYouModal")
 
   submitBtn.addEventListener("click", () => {
-    const hasName = nameInput.value.trim() !== ""
     const hasContact = phoneInput.value.trim() !== "" || emailInput.value.trim() !== ""
 
-    if (!hasName || !hasContact) {
-      validationMsg.textContent = "Please share your name, and either a phone number or email, so Carlos can reach you."
+    if (!hasContact) {
+      validationMsg.textContent = "Just need one way to reach you — a phone number or email is plenty."
       return
     }
 
@@ -860,7 +763,6 @@ transform: translateY(0);}}
     // Clear inputs
     document.querySelectorAll(".form-input").forEach((i) => (i.value = ""))
     pills.forEach((p) => p.classList.remove("selected"))
-    document.querySelector('.wizard-step[data-step="1"] .wizard-next').disabled = true
   })
 })()
 </script>`}

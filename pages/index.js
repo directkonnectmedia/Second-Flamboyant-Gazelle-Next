@@ -28,7 +28,7 @@ const Home = (props) => {
           <div className="hero-carousel__slides">
             <div className="hero-carousel__slide active">
               <img
-                src="/images/hero-4.jpg"
+                src="/images/hero.webp"
                 alt="Arizona stucco home with desert landscape"
                 className="hero-carousel__image"
               />

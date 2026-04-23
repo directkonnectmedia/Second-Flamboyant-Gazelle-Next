@@ -150,7 +150,7 @@ const Home = (props) => {
               <div className="why-us__card">
                 <div className="why-us__image-wrap">
                   <img
-                    src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=800&q=80"
+                    src="/images/premium-materials.webp"
                     alt="Close-up of premium stucco texture"
                     className="why-us__image"
                   />
@@ -220,8 +220,8 @@ const Home = (props) => {
               <div className="why-us__card">
                 <div className="why-us__image-wrap">
                   <img
-                    src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=80"
-                    alt="Friendly handshake representing honest value"
+                    src="/images/best-value.webp"
+                    alt="Honest value and fair pricing for Arizona stucco work"
                     className="why-us__image"
                   />
                 </div>
@@ -281,7 +281,7 @@ const Home = (props) => {
               </div>
               <div className="gallery__card">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+                  src="/images/modern-desert-contemporary.webp"
                   alt="Modern desert contemporary stucco home"
                   className="gallery__image"
                 />

@@ -28,15 +28,8 @@ const Home = (props) => {
           <div className="hero-carousel__slides">
             <div className="hero-carousel__slide active">
               <img
-                src="/images/hero-1.jpg"
-                alt="Arizona stucco home exterior"
-                className="hero-carousel__image"
-              />
-            </div>
-            <div className="hero-carousel__slide">
-              <img
                 src="/images/hero-4.jpg"
-                alt="Arizona stucco home exterior"
+                alt="Arizona stucco home with desert landscape"
                 className="hero-carousel__image"
               />
             </div>
@@ -73,10 +66,6 @@ const Home = (props) => {
                 <span>Get Your Free Quote</span>
               </div>
             </a>
-          </div>
-          <div className="hero-carousel__indicators">
-            <span className="hero-carousel__dot active"></span>
-            <span className="hero-carousel__dot"></span>
           </div>
         </section>
         <section id="why-us" className="why-us">
@@ -635,23 +624,6 @@ transform: translateY(0);}}
             <Script
               html={`<script defer data-name="carlostucco-logic">
 (function(){
-  // Hero Carousel Logic
-  const heroSlides = document.querySelectorAll(".hero-carousel__slide")
-  const heroDots = document.querySelectorAll(".hero-carousel__dot")
-  let currentHeroSlide = 0
-
-  function showHeroSlide(index) {
-    heroSlides.forEach((s) => s.classList.remove("active"))
-    heroDots.forEach((d) => d.classList.remove("active"))
-    heroSlides[index].classList.add("active")
-    heroDots[index].classList.add("active")
-  }
-
-  setInterval(() => {
-    currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length
-    showHeroSlide(currentHeroSlide)
-  }, 9000)
-
   // Wizard Wizard Logic
   const wizardSteps = document.querySelectorAll(".wizard-step")
   const wizardDots = document.querySelectorAll(".wizard-card__dot")

@@ -35,20 +35,6 @@ const Home = (props) => {
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="/images/hero-2.jpg"
-                alt="Arizona stucco home exterior"
-                className="hero-carousel__image"
-              />
-            </div>
-            <div className="hero-carousel__slide">
-              <img
-                src="/images/hero-3.jpg"
-                alt="Arizona stucco home exterior"
-                className="hero-carousel__image"
-              />
-            </div>
-            <div className="hero-carousel__slide">
-              <img
                 src="/images/hero-4.jpg"
                 alt="Arizona stucco home exterior"
                 className="hero-carousel__image"
@@ -90,8 +76,6 @@ const Home = (props) => {
           </div>
           <div className="hero-carousel__indicators">
             <span className="hero-carousel__dot active"></span>
-            <span className="hero-carousel__dot"></span>
-            <span className="hero-carousel__dot"></span>
             <span className="hero-carousel__dot"></span>
           </div>
         </section>
@@ -666,7 +650,7 @@ transform: translateY(0);}}
   setInterval(() => {
     currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length
     showHeroSlide(currentHeroSlide)
-  }, 6000)
+  }, 9000)
 
   // Wizard Wizard Logic
   const wizardSteps = document.querySelectorAll(".wizard-step")

@@ -28,36 +28,29 @@ const Home = (props) => {
           <div className="hero-carousel__slides">
             <div className="hero-carousel__slide active">
               <img
-                src="https://images.pexels.com/photos/5223143/pexels-photo-5223143.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt="Spanish style Arizona stucco home with arched windows at golden hour"
+                src="/images/hero-1.jpg"
+                alt="Arizona stucco home exterior"
                 className="hero-carousel__image"
               />
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="https://images.pexels.com/photos/15504475/pexels-photo-15504475.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt="Tucson Arizona suburban stucco home with southwestern architecture"
+                src="/images/hero-2.jpg"
+                alt="Arizona stucco home exterior"
                 className="hero-carousel__image"
               />
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="https://images.pexels.com/photos/15504477/pexels-photo-15504477.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt="Row of modern Arizona stucco homes in Tucson neighborhood"
+                src="/images/hero-3.jpg"
+                alt="Arizona stucco home exterior"
                 className="hero-carousel__image"
               />
             </div>
             <div className="hero-carousel__slide">
               <img
-                src="https://images.pexels.com/photos/34960819/pexels-photo-34960819.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt="Mediterranean style stucco home with terracotta tile roof"
-                className="hero-carousel__image"
-              />
-            </div>
-            <div className="hero-carousel__slide">
-              <img
-                src="https://images.pexels.com/photos/33301798/pexels-photo-33301798.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt="Mediterranean white stucco house at sunset with arched windows"
+                src="/images/hero-4.jpg"
+                alt="Arizona stucco home exterior"
                 className="hero-carousel__image"
               />
             </div>
@@ -97,7 +90,6 @@ const Home = (props) => {
           </div>
           <div className="hero-carousel__indicators">
             <span className="hero-carousel__dot active"></span>
-            <span className="hero-carousel__dot"></span>
             <span className="hero-carousel__dot"></span>
             <span className="hero-carousel__dot"></span>
             <span className="hero-carousel__dot"></span>
